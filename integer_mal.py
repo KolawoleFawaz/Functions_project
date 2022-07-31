@@ -21,13 +21,13 @@ def sums(add,even_addition):
 
 def multiplies(my_nums,odd_mult):
     num = 1
-    nom = 1
+    nom1 = 1
     for a in my_nums:
         num *= a
     for b in range(len(odd_mult)):
         if not b % 2 == 0:
             nom *= odd_mult[b]
-    return num,nom
+    return num,nom1
 
 
 # In[15]:
